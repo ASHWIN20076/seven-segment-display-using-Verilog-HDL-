@@ -39,7 +39,7 @@ To design and simulate a seven-segment display driver using Verilog HDL, and ver
 ![image](https://github.com/user-attachments/assets/a8a8921e-0a37-4697-86d8-0c43cd8aef5a)
 
 ## Verilog Code for Seven-Segment Display  
-
+```verilog
 `timescale 1ns / 1ps
 module BCD_7Seg(bcd,seg);
 input  [3:0] bcd;   
